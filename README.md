@@ -2,7 +2,7 @@
 
 A hands-on Active Directory lab simulating the identity/account tickets a help desk handles daily — password resets, lockouts, group access, provisioning, and reading Group Policy — built and worked in my own Windows Server domain.
 
-> **Honesty note:** lab portfolio, not claimed production experience. Built on a self-hosted domain (`SOLTICK`) so I can perform and explain these tasks, not just recite them.
+> **Honesty note:** lab portfolio, not claimed production experience. Built on a self-hosted domain (`salnoct`) so I can perform and explain these tasks, not just recite them.
 
 ---
 
@@ -16,7 +16,7 @@ The single most common help desk ticket is *"I'm locked out / I forgot my passwo
 
 ## Tools and systems involved
 
-- Windows Server 2022 — domain `SOLTICK` (VMware Workstation)
+- Windows Server 2022 — domain `salnoct` (VMware Workstation)
 - Windows 10/11 domain-joined client
 - **Active Directory Users and Computers (ADUC)**
 - **Group Policy Management Console (GPMC)**
@@ -58,7 +58,7 @@ Identity work is where help desk most directly touches security. Doing it *corre
 active-directory-helpdesk-lab/
 ├── scenarios/              ticket-style identity issues, fully worked
 ├── troubleshooting-guides/ lockouts, access requests, GPO basics
-├── labs/                   hands-on tasks in the SOLTICK domain
+├── labs/                   hands-on tasks in the salnoct domain
 ├── checklists/             provisioning / offboarding / verification
 ├── docs/                   AD objects + Group Policy explained
 └── screenshots/            evidence from my own lab
